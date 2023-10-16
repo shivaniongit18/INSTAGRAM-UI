@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM UI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h2{
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            margin: 0;
+
+        }
+        #profile-header{
+            display:flex;
+            gap: 35px;
+            justify-content: center;
+            align-items: center;
+        }
+        #profile-element{
+            display: flex;
+            gap: 45px;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 16px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #title{
+            font-size: 14px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+        }
+        #description{
+            font-size: 14px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 5px;
+            font-weight: 450;
+            color: black;
+        }
+        #tabs{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            font-size: 12px;
+            font-weight: 600;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(115, 115, 115); 
+            border-top: 1px solid rgb(219, 219, 219);
+        }
+        .logo-container {
+          display: flex; 
+          font-style: italic;
+          gap: 5px;
+          margin-top: 0px;
+       }
+       header{
+        background-color: white; 
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        z-index: 100;
+        top: 0;
+        padding: 0;
+        left: 0;
+        border-bottom: 1px;
+        margin-top: 0px;
+        
+       }
+
+        #logo {
+          width: 30px; 
+          height: 30px;
+          margin-right: 5px; 
+          margin-top: 0;
+        }
+        h3{
+            font-size: 18px;
+            margin-top: 2px;
+            padding: 0px;
+        }
+
+        img{
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+            margin: 60px;
+
+        }
+        #grid-image{
+            border-radius: 0%;
+            height: 250px;
+            width: 250px;
+            margin: 5px;
+        }
+        #posts-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        #posts-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        #grid-image-2{
+            border-radius: 0%;
+            height: 250px;
+            width: 250px;
+            margin: 5px;
+        }
+        #conatiner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+
+        #follow-button{
+            background-color: #DBDBDB;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #message-button{
+            background-color: #DBDBDB;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #follow-button:hover {
+            background-color: #b5b4b5;
+        }
+        #message-button:hover{
+            background-color: #b5b4b5;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo-container">
+        <img id="logo" 
+        src="/IMAGES/logo insta.jpg" alt="Instagram Logo">
+        <h3>Instagram</h3>
+    </div>
+    </header>
+    <div id="conatiner">
+        <div>
+         <img src="/IMAGES/shivam_sk.jpg">
+        </div>
+        <div>
+            <div id="profile-header">
+                <div>
+                    <h2>Shivam Shaasheesh</h2>
+                </div>
+            <div>
+                <button id="follow-button">Follow</button>
+                <button id="message-button">Message</button>
+            </div>
+        </div>
+
+            <div id="profile-element">
+                <div>
+                    <p>11 posts</p>
+                </div>
+                <div> 
+                    <p>641 followers</p>
+                </div>
+                <div>
+                     <p>974 following</p>
+                </div>
+            </div>
+            <div id="title">
+                <span>@shiavm_.sk</span>
+            </div>
+            <div id="description">
+                <div><p> Out here tryna impress myself...</p></div>
+                <div>
+                    <a href="https://www.linkedin.com/in/shivam-shasheesh-201b3a1b1/">https://www.linkedin.com/in/shivam-shasheesh-201b3a1b1/</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tabs">
+        <div>
+            <p>
+                <svg aria-label="" class="x1lliihq x1n2onr6" color="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" height="12" role="img" viewBox="0 0 24 24" width="12"><title></title><rect fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="18" x="3" y="3"></rect><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="9.015" x2="9.015" y1="3" y2="21"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="14.985" x2="14.985" y1="3" y2="21"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21" x2="3" y1="9.015" y2="9.015"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21" x2="3" y1="14.985" y2="14.985"></line></svg>POSTS</p>
+        </div>
+        <div>
+            <p> 
+                <svg aria-label="" class="x1lliihq x1n2onr6" color="rgb(115, 115, 115)" fill="rgb(115, 115, 115)" height="12" role="img" viewBox="0 0 24 24" width="12"><title></title><line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="2.049" x2="21.95" y1="7.002" y2="7.002"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="13.504" x2="16.362" y1="2.001" y2="7.002"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="7.207" x2="10.002" y1="2.11" y2="7.002"></line><path d="M2 12.001v3.449c0 2.849.698 4.006 1.606 4.945.94.908 2.098 1.607 4.946 1.607h6.896c2.848 0 4.006-.699 4.946-1.607.908-.939 1.606-2.096 1.606-4.945V8.552c0-2.848-.698-4.006-1.606-4.945C19.454 2.699 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.546 2 5.704 2 8.552Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M9.763 17.664a.908.908 0 0 1-.454-.787V11.63a.909.909 0 0 1 1.364-.788l4.545 2.624a.909.909 0 0 1 0 1.575l-4.545 2.624a.91.91 0 0 1-.91 0Z" fill-rule="evenodd"></path></svg>REELS</p>
+        </div>
+        <div>
+            <p>
+                <svg aria-label="" class="x1lliihq x1n2onr6" color="rgb(115, 115, 115)" fill="rgb(115, 115, 115)" height="12" role="img" viewBox="0 0 24 24" width="12"><title></title><path d="M10.201 3.797 12 1.997l1.799 1.8a1.59 1.59 0 0 0 1.124.465h5.259A1.818 1.818 0 0 1 22 6.08v14.104a1.818 1.818 0 0 1-1.818 1.818H3.818A1.818 1.818 0 0 1 2 20.184V6.08a1.818 1.818 0 0 1 1.818-1.818h5.26a1.59 1.59 0 0 0 1.123-.465Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M18.598 22.002V21.4a3.949 3.949 0 0 0-3.948-3.949H9.495A3.949 3.949 0 0 0 5.546 21.4v.603" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle cx="12.072" cy="11.075" fill="none" r="3.556" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg>TAGGED</p>
+        </div>
+    </div>
+    <div>
+        <div id="posts-1">
+            <div>
+                <img id="grid-image" 
+                src="/IMAGES/post1.jpg">
+            </div>
+            <div>
+                <img id="grid-image"
+                src="/IMAGES/post2.jpg">
+            </div>
+            <div>
+                <img id="grid-image"
+                src="/IMAGES/post3.jpg">
+            </div>
+        </div>
+        <div id="posts-2">
+            <div>
+                <img id="grid-image-2"
+                 src="/IMAGES/post4.jpg">
+            </div>
+            <div>
+                <img id="grid-image-2"
+                src="/IMAGES/post5.jpg">
+            </div>
+            <div>
+                <img id="grid-image-2"
+                src="/IMAGES/post6.jpg">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
